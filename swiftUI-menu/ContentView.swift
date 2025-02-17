@@ -23,8 +23,9 @@ struct ContentView: View {
 extension View {
     func featured() -> some View {
         HStack {
-            self
+            
             Image(systemName: "star")
+            self
 
         }
         .foregroundColor(.orange)
