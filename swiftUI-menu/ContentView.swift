@@ -13,8 +13,22 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+            Text("Hello, world!").featured()
+
         }
         .padding()
+    }
+}
+
+extension View {
+    func featured() -> some View {
+        HStack {
+            self
+            Image(systemName: "star")
+
+        }
+        .foregroundColor(.orange)
+        .font(.headline)
     }
 }
 
