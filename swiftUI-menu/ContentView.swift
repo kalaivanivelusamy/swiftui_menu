@@ -13,25 +13,25 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!").featured()
+            Text("Hello, world!")
 
         }
         .padding()
     }
 }
 
-extension View {
-    func featured() -> some View {
-        HStack {
-            
-            Image(systemName: "star")
-            //self
-
-        }
-        .foregroundColor(.orange)
-        .font(.headline)
-    }
-}
+//extension View {
+//    func featured() -> some View {
+//        HStack {
+//            
+//            Image(systemName: "star")
+//            self
+//
+//        }
+//        .foregroundColor(.orange)
+//        .font(.headline)
+//    }
+//}
 
 #Preview {
     ContentView()
