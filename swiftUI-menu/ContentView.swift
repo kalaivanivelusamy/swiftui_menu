@@ -25,7 +25,7 @@ extension View {
         HStack {
             
             Image(systemName: "star")
-            self
+            //self
 
         }
         .foregroundColor(.orange)
